@@ -1,8 +1,16 @@
-#include<stdio.h>
+
+					
+				
+				
+		
+	#include<stdio.h>
 void main()
 {
 	char p;
 	scanf("%c",&p);
+	if ((p>='a'&& p<='z')||(p>='A'&&p<='Z'))
+	{
+	
 	switch(p)
 	{
 		case 'A':
@@ -33,11 +41,11 @@ void main()
 		default:
 				printf("consonant");
 				break;
-				default:
-					printf("invalid");
-					
-				
-				
+			}
+		}
+			
+			else
 		
+				printf("not a alphabet");
 	}
-}
+
